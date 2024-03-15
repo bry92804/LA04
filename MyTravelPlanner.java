@@ -61,12 +61,6 @@ public class MyTravelPlanner {
     public static void main(String[] args) {
         // Test the class
         MyTravelPlanner planner = new MyTravelPlanner();
-        // Test with different scenarios
-        System.out.println(planner.getPlan(LocalDate.of(2024, 3, 16), "Rainy", LocalTime.of(8, 0), LocalTime.of(16, 0)));
-        System.out.println(planner.getPlan(LocalDate.of(2024, 3, 17), "Sunny", LocalTime.of(8, 0), LocalTime.of(16, 0)));
-        System.out.println(planner.getPlan(LocalDate.of(2024, 3, 18), "Snowy", LocalTime.of(8, 0), LocalTime.of(16, 0)));
-        System.out.println(planner.getPlan(LocalDate.of(2024, 3, 19), "Cloudy", LocalTime.of(8, 0), LocalTime.of(16, 0)));
-    }
 
 	public static int getDriveTimeMinutes() {
 		return DRIVE_TIME_MINUTES;
